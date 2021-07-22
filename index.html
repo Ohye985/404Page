@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&display=swap" rel="stylesheet">
+
+    <title>Error 404 page</title>
+
+    <style>
+      @media only screen and (max-width: 768px) {
+        p.page-heading {
+          margin: 0;
+          padding: 0;
+        }
+        div.container {
+          display: flex;
+          flex-direction: column;
+          min-height: 90vh;
+          margin: 0 auto;
+        }
+        div.crow-container {
+          width: 100%;
+          margin: 3rem 0 0 1rem;
+          padding: 0;
+        }
+        img.crow {
+          width: 90%;
+          height: 100%;
+          margin: 0 auto;
+        }
+        h4.page-info {
+          font-size: 2rem;
+          line-height: 4.5rem;
+          width: 80%;
+          margin: 2rem 0 0 1rem;
+          letter-spacing: -0.035em;
+        }
+        p.page-info-1 {
+          margin: 2rem 0 0 0;
+          width: 100%;
+          height: 25%;
+        }
+        p.link {
+          margin: 20% 0 0 0;
+          padding: 4%;
+          background-color: #333333;
+          color: white;
+          text-transform: uppercase;
+          width: 45%;
+        }
+        body .footer {
+          width: 100%;
+          margin: 20% 0 0 0;
+          
+        } 
+      }
+      body {
+        font-family: "Space Mono", sans-serif;
+        padding: 2% 3% 0 3%;
+      }
+      .page-heading {
+        font-family: "Inconsolata";
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.2rem;
+        letter-spacing: -0.1rem;
+        text-transform: uppercase;
+        margin: 0 0 3rem 4rem;
+      }
+      .container {
+        display: flex;
+        min-height: 80vh;
+        width: 95%;
+        padding: 0;
+        margin: 0 0 1rem 4.1rem;
+        /* border: 1px solid red; */
+      }
+      .crow-container {
+        width: 50%;
+        margin: 4rem 10rem 0 0;
+      }
+      .crow {
+        width: 100%;
+        height: 75%;
+        position: relative;
+      }
+      .page-info {
+        font-size: 4rem;
+        font-weight: 700;
+        color: #333;
+      }
+      .page-info-1 {
+        width: 50%;
+        height: 20%;
+        margin: -8% 0 0 0;
+        color: #4F4F4F;
+        
+      }
+      .link {
+        margin: -1% 0 0 0;
+        padding: 3%;
+        background-color: #333333;
+        color: white;
+        text-transform: uppercase;
+        width: 21%;
+        font-size: 0.875rem;
+      }
+      .link a {
+        text-decoration: none;
+        color: white;
+      }
+      .footer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+      .footer-text {
+        color: #BDBDBD;
+        font-family: "Montserrat";
+        line-height: 1.06rem;
+      }
+      .footer-text a {
+        text-decoration: none;
+        color: #BDBDBD;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="page-heading">404 not found</p>
+
+    <div class="container">
+      <div class="crow-container">
+        <img src="./Scarecrow.png" alt="scarecrow" class="crow">
+      </div>
+      <div>
+        <h4 class="page-info">I have bad news for you</h4>
+        <p class="page-info-1">The page you are looking for might be removed or be temporarily unavailable</p>
+        <p class="link"><a href="devchallenges.io">back to homepage</a></p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <span class="footer-text">created by <b>Ohye</b> - <a href="devchallenges.io">devChallenges.io</a></span>
+    </footer>
+  </body>
+</html>
